@@ -169,7 +169,7 @@ effective because, once resources are placed in the service worker cache, they
 are fetched almost instantly upon request.
 
 
-![Service Worker Precaching](service-worker-precaching.png)
+![Service Worker Precaching](/img/service-worker-precaching.png)
 
 *The cache-only strategy only ever retrieves eligible resources from the network during the service worker's installation. Once installed, the cached resources are only ever retrieved from the service worker cache.*
 
